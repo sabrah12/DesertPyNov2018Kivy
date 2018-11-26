@@ -22,9 +22,9 @@ BoxLayout:
         text: 'Books and Music'
 '''
 if __name__ == '__main__':
-    class Ex1App(App):
+    class Ex2App(App):
 
         def build(self):
             return Builder.load_string(kv )
 
-    Ex1App().run()
+    Ex2App().run()
