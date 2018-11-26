@@ -1,7 +1,5 @@
 from kivy.app import App
 from kivy.lang import Builder
-
-
 kv = '''
 BoxLayout:
     orientation: 'vertical'
@@ -40,8 +38,6 @@ BoxLayout:
 '''
 if __name__ == '__main__':
     class Ex2aApp(App):
-
         def build(self):
             return Builder.load_string(kv )
-
     Ex2aApp().run()
